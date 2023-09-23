@@ -35,34 +35,6 @@ So you've landed on a brand new planet and you need to set up your tools. Here's
    echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.zshrc
    ```
 
-## 🛠 How to Add New Files or Configurations
-
-Whenever you stumble upon a new piece of galactic wisdom (aka a cool configuration or setting) and want to save it for later, here's how:
-
-1. **Go to a temporary directory:**
-
-   This avoids unintentionally adding other files present in the `$HOME` directory.
-
-   ```bash
-   mkdir ~/dotfiles-tmp
-   cd ~/dotfiles-tmp
-   ```
-
-2. **Create or modify the file with your new settings.**
-
-3. **Use the `dotfiles` alias to add and commit your changes:**
-
-   ```bash
-   dotfiles add <filename>
-   dotfiles commit -m "Your commit message"
-   ```
-
-4. **Push your changes to the stars 🌟 (aka your git repo):**
-
-   ```bash
-   dotfiles push origin main
-   ```
-
 ## 🌌 Final Thoughts
 
 Remember, the universe is vast, and configurations are ever-changing. Keep exploring, and keep updating this digital spaceship! And if you meet another galactic traveler, share your knowledge!
