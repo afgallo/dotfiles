@@ -10,11 +10,6 @@ export SAM_CLI_TELEMETRY=0
 export EDITOR='nvim'
 export PATH="/opt/homebrew/opt/python@3.10/libexec/bin:$PATH"
 export AWS_REGION=ap-southeast-2
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-# export PATH="$PATH:$HOME/.rvm/bin"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -85,11 +80,8 @@ ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
 source $ZSH/oh-my-zsh.sh
-#source /usr/local/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
 
 # Sets the Homebrew-installed Ruby to a higher priority than the system Ruby and adds the directory used for Ruby gems.
 if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
@@ -117,11 +109,8 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 eval "$(starship init zsh)"
 
-autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /opt/homebrew/bin/terraform terraform
-
-# bun completions
-[ -s "/Users/afgallo/.bun/_bun" ] && source "/Users/afgallo/.bun/_bun"
+#autoload -U +X bashcompinit && bashcompinit
+#complete -o nospace -C /opt/homebrew/bin/terraform terraform
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
