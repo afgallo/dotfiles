@@ -7,7 +7,6 @@ export NVM_DIR="$HOME/.nvm"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export SAM_CLI_TELEMETRY=0
-export GITHUB_TOKEN=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
 export EDITOR='nvim'
 export PATH="/opt/homebrew/opt/python@3.10/libexec/bin:$PATH"
 export AWS_REGION=ap-southeast-2
