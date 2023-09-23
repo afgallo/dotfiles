@@ -39,4 +39,4 @@ So you've landed on a brand new planet and you need to set up your tools. Here's
 
 Remember, the universe is vast, and configurations are ever-changing. Keep exploring, and keep updating this digital spaceship! And if you meet another galactic traveler, share your knowledge!
 
-Safe travels, Future Me! 🚀
+Safe travels, Future Me! 🚀
