@@ -1,0 +1,15 @@
+[user]
+	name = Andre Gallo
+	email = 9999415+afgallo@users.noreply.github.com
+[init]
+	defaultBranch = main
+[alias]
+	st = status
+	last = log -1 HEAD
+	lg = log --graph --pretty=format:'%C(auto)%h -%d %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+[pager]
+	branch = false
+[push]
+	autoSetupRemote = true
+[pull]
+	rebase = true
