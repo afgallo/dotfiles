@@ -35,7 +35,7 @@ So you've landed on a brand new planet and you need to set up your tools. Here's
    echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.zshrc
    ```
 
-4. (Experimental) **Try run `bootstrap.sh` as an alterative method to step 2**
+4. (Experimental) **Try run `bootstrap.sh` as an alterative method to step 2 and 3**
 
 ## 🌌 Final Thoughts
 

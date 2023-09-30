@@ -11,6 +11,7 @@ git clone --bare https://github.com/afgallo/dotfiles.git $HOME/.dotfiles
 
 # Define the alias
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >>$HOME/.zshrc
 
 # Backup existing config
 mkdir -p $HOME/.dotfiles-backup
