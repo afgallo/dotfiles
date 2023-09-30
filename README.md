@@ -17,7 +17,7 @@ So you've landed on a brand new planet and you need to set up your tools. Here's
    Now, clone this repo as a bare repository:
 
    ```bash
-   git clone --bare git@github.com:afgallo/dotfiles.git $HOME/.dotfiles
+   git clone --bare https://github.com/afgallo/dotfiles.git $HOME/.dotfiles
    ```
 
 2. **Checkout the actual content from the bare repository to your `$HOME` directory:**
@@ -34,6 +34,8 @@ So you've landed on a brand new planet and you need to set up your tools. Here's
    ```bash
    echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.zshrc
    ```
+
+4. (Experimental) **Try run `bootstrap.sh` as an alterative method to step 2**
 
 ## 🌌 Final Thoughts
 
